@@ -5,7 +5,7 @@ import User from '../app/models/User';
 import databaseConfig from '../config/database';
 
 const models = [User];
-
+/* Configurando a classe DATABASE  */
 class DataBase {
   constructor() {
     this.init();
